@@ -1,51 +1,49 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    height: 50px;  
-    }
-   
+.container {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
 
 .title {
-    color: #6d2db0;
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
-       
+  color: #6d2db0;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-  .lineLeft::before {
-    content: '';
+.lineLeft::before {
+  content: "";
   display: inline-block;
   width: 80px;
   height: 2px;
   background: #6d2db0;
   margin: 0 auto;
-  }
-  .lineRight::after {
-    content: '';
-    display: inline-block;
-    width: 80px;
-    height: 2px;
-    background: #6d2db0;
-    margin: 0 auto;
-  }
+}
+.lineRight::after {
+  content: "";
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background: #6d2db0;
+  margin: 0 auto;
+}
 
-  p::first-line {
-    color: #ff0000;
-    font-variant: small-caps;
-    text-transform: capitalize;
-  }
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
 
-  p::first-letter {
-    color: #ff00d4;
-    font-size: xx-large;
-  }
+p::first-letter {
+  color: #ff00d4;
+  font-size: xx-large;
+}
 
-  ::selection {
-    color: red;
-    background: yellow;
-  }
+::selection {
+  color: red;
+  background: yellow;
+}
